@@ -11,15 +11,15 @@ local monitors = {
 -- you're doing!
 
 -- Switch workspace binds
-hl.bind(mainMod .. " + 1", hl.dsp.exec_cmd(path_to_script .. " 1"))
-hl.bind(mainMod .. " + 2", hl.dsp.exec_cmd(path_to_script .. " 2"))
-hl.bind(mainMod .. " + 3", hl.dsp.exec_cmd(path_to_script .. " 3"))
-hl.bind(mainMod .. " + 4", hl.dsp.exec_cmd(path_to_script .. " 4"))
-hl.bind(mainMod .. " + 5", hl.dsp.exec_cmd(path_to_script .. " 5"))
-hl.bind(mainMod .. " + 6", hl.dsp.exec_cmd(path_to_script .. " 6"))
-hl.bind(mainMod .. " + 7", hl.dsp.exec_cmd(path_to_script .. " 7"))
-hl.bind(mainMod .. " + 8", hl.dsp.exec_cmd(path_to_script .. " 8"))
-hl.bind(mainMod .. " + 9", hl.dsp.exec_cmd(path_to_script .. " 9"))
+hl.bind("SUPER + 1", hl.dsp.exec_cmd(path_to_script .. " 1"))
+hl.bind("SUPER + 2", hl.dsp.exec_cmd(path_to_script .. " 2"))
+hl.bind("SUPER + 3", hl.dsp.exec_cmd(path_to_script .. " 3"))
+hl.bind("SUPER + 4", hl.dsp.exec_cmd(path_to_script .. " 4"))
+hl.bind("SUPER + 5", hl.dsp.exec_cmd(path_to_script .. " 5"))
+hl.bind("SUPER + 6", hl.dsp.exec_cmd(path_to_script .. " 6"))
+hl.bind("SUPER + 7", hl.dsp.exec_cmd(path_to_script .. " 7"))
+hl.bind("SUPER + 8", hl.dsp.exec_cmd(path_to_script .. " 8"))
+hl.bind("SUPER + 9", hl.dsp.exec_cmd(path_to_script .. " 9"))
 
 
 -- Apply workspace rules
